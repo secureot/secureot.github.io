@@ -1,7 +1,6 @@
 +++
 title = "Comunicaciones industriales"
 +++
-# Comunicaciones Industriales
 
 En el mundo de la automatización y el control industrial, la comunicación entre dispositivos, sistemas y redes es fundamental para garantizar la eficiencia, la seguridad y la fiabilidad de las operaciones.
 Las comunicaciones industriales permiten que diferentes equipos y sistemas intercambien información en tiempo real, asegurando que los procesos se desarrollen sin problemas y de manera coordinada.
