@@ -14,8 +14,9 @@ mejorar la calidad del producto y garantizar la seguridad operativa.
 ## Estándares y Protocolos de Comunicación
 Existen numerosos estándares y protocolos diseñados para facilitar la comunicación en entornos industriales. Algunos de los más utilizados incluyen:
 
-1. **RS485**: Un estándar de comunicación serial que permite la transmisión de datos a largas distancias y soporta múltiples dispositivos en un solo bus.
-2. **Modbus**: Un protocolo de comunicación ampliamente utilizado para la integración de dispositivos industriales, basado en una arquitectura maestro/esclavo.
+
+1. **[RS485]({{< ref "/comunicaciones/rs485" >}})**: Un estándar de comunicación serial que permite la transmisión de datos a largas distancias y soporta múltiples dispositivos en un solo bus.
+2. **[Modbus]({{< ref "/comunicaciones/modbus" >}})**: Un protocolo de comunicación ampliamente utilizado para la integración de dispositivos industriales, basado en una arquitectura maestro/esclavo.
 3. **PROFINET**: Un estándar Ethernet para la automatización industrial que soporta la integración de sistemas de tiempo real.
 4. **EtherCAT**: Un protocolo Ethernet orientado a aplicaciones de control en tiempo real y alta velocidad.
 5. **CAN Bus**: Utilizado principalmente en la automoción y en sistemas embebidos para la comunicación entre microcontroladores.
