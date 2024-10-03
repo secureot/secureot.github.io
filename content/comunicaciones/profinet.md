@@ -1,4 +1,6 @@
-# PROFIBUS y PROFINET
++++
+title = "PROFIBUS y PROFINET"
++++
 
 ## PROFIBUS
 - **Qué es:** 
