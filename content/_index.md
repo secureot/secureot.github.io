@@ -1,9 +1,6 @@
 +++
-author = "SecureOT Village"
-title = "SecureOT"
+title = "SecureOT Village"
 +++
-
-# Secure OT Village
 
 El village **Secure OT**, está pensado para ser un espacio colaborativo en el cual aprender en comunidad sobre ciberseguridad industrial y sus prácticas, tecnologías y procesos.
 
