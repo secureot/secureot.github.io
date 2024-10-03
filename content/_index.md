@@ -49,43 +49,83 @@ La **ciberseguridad en tecnologías de operación** se refiere a las prácticas,
 - **Control de Acceso:** Limitar el acceso a los sistemas críticos mediante autenticación fuerte y políticas de acceso.
 - **Capacitación y Concientización:** Formar a los empleados sobre las mejores prácticas de ciberseguridad para prevenir ataques.
 
-#### Adopción de medidas de Ciberseguridad en OT
+#### Adopción a un programa de medidas de Ciberseguridad en OT
 
 A continuación podemos ver un cuadro muy resumido sobre puntos a considerar para implementar un programa de ciberseguridad en nuestro ambiente OT
 
-##### Descripción del Diagrama
+##### Descripción del programa
 
-1. **Identificación de Necesidades**: Determinar qué áreas requieren protección.
-2. **Evaluación de Riesgos**: Analizar los riesgos asociados con la infraestructura existente.
-3. **Definición de Requerimientos**: Establecer qué funcionalidades deben tener las soluciones.
-4. **Investigación de Soluciones**: Buscar soluciones que se alineen con los requerimientos.
-5. **Evaluación de Proveedores**: Comparar diferentes proveedores de soluciones.
-6. **Pruebas de Soluciones**: Realizar pruebas de las soluciones elegidas.
-7. **Selección de Solución**: Elegir la mejor solución según las pruebas y evaluaciones.
-8. **Adquisición de la Solución**: Completar la compra de la solución seleccionada.
-9. **Implementación**: Integrar la solución en el entorno de trabajo.
-10. **Ajuste y Configuración**: Configurar la solución para que cumpla con las necesidades específicas.
-11. **Capacitación del Personal**: Entrenar al personal sobre el uso de la nueva solución.
-12. **Monitoreo y Mantenimiento**: Supervisar el funcionamiento y realizar mantenimientos regulares.
-13. **Evaluación de Cumplimiento**: Verificar que la solución cumple con la norma 62443.
-14. **Ajustes para Cumplir con la Norma 62443**: Realizar modificaciones según sea necesario para cumplir con la norma.
+
+- **Fase 1: Identificación**: 
+  - *Identificación de Necesidades*: Determina las áreas que requieren protección.
+  - *Evaluación de Riesgos*: Analiza los riesgos asociados.
+
+- **Fase 2: Definición de Requerimientos**:
+  - *Definición de Requerimientos*: Establece funcionalidades necesarias.
+  - *Investigación de Soluciones*: Busca opciones adecuadas.
+
+- **Fase 3: Selección de Proveedores**:
+  - *Evaluación de Proveedores*: Compara diferentes soluciones.
+  - *Pruebas de Soluciones*: Realiza pruebas de las opciones.
+  - *Selección de Solución*: Elige la mejor solución.
+
+- **Fase 4: Implementación**:
+  - *Adquisición de la Solución*: Completa la compra.
+  - *Implementación*: Integra en el entorno.
+  - *Ajuste y Configuración*: Configura para necesidades específicas.
+
+- **Fase 5: Capacitación y Mantenimiento**:
+  - *Capacitación del Personal*: Entrena al personal.
+  - *Monitoreo y Mantenimiento*: Supervisa y mantiene.
+  - *Evaluación de Cumplimiento*: Verifica el cumplimiento.
+  - *Ajustes para Cumplir con la Norma 62443*: Realiza modificaciones necesarias.
+
 
 {{< mermaid >}}
 graph TD;
-    A[Identificación de Necesidades] --> B[Evaluación de Riesgos]
-    B --> C[Definición de Requerimientos]
-    C --> D[Investigación de Soluciones]
-    D --> E[Evaluación de Proveedores]
-    E --> F[Pruebas de Soluciones]
-    F --> G[Selección de Solución]
-    G --> H[Adquisición de la Solución]
-    H --> I[Implementación]
-    I --> J[Ajuste y Configuración]
-    J --> K[Capacitación del Personal]
-    K --> L[Monitoreo y Mantenimiento]
-    L --> M[Evaluación de Cumplimiento]
-    M --> N[Ajustes para Cumplir con la Norma 62443]
+    subgraph Fase 1: Identificación
+        A[Identificación de Necesidades]
+        B[Evaluación de Riesgos]
+    end
 
-    classDef proceso fill:#f9f,stroke:#333,stroke-width:2px;
-    class A,B,C,D,E,F,G,H,I,J,K,L,M,N proceso;
+    subgraph Fase 2: Definición de Requerimientos
+        C[Definición de Requerimientos]
+        D[Investigación de Soluciones]
+    end
+
+    subgraph Fase 3: Selección de Proveedores
+        E[Evaluación de Proveedores]
+        F[Pruebas de Soluciones]
+        G[Selección de Solución]
+    end
+
+    subgraph Fase 4: Implementación
+        H[Adquisición de la Solución]
+        I[Implementación]
+        J[Ajuste y Configuración]
+    end
+
+    subgraph Fase 5: Capacitación y Mantenimiento
+        K[Capacitación del Personal]
+        L[Monitoreo y Mantenimiento]
+        M[Evaluación de Cumplimiento]
+        N[Ajustes para Cumplir con la Norma 62443]
+    end
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J --> K
+    K --> L
+    L --> M
+    M --> N
+
+    classDef fase fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,B,C,D,E,F,G,H,I,J,K,L,M,N fase;
 {{< /mermaid >}}
