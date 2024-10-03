@@ -126,6 +126,6 @@ graph TD;
     L --> M
     M --> N
 
-    classDef fase fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef fase fill: #0B6EB1,stroke:#333,stroke-width:2px;
     class A,B,C,D,E,F,G,H,I,J,K,L,M,N fase;
 {{< /mermaid >}}
