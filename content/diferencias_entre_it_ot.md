@@ -1,4 +1,6 @@
-# Diferencias entre Tecnologías IT y OT
++++
+title = "Diferencias entre Tecnologías IT y OT"
++++
 
 Las tecnologías de la información (IT) y las tecnologías operativas (OT) son fundamentales en diferentes contextos dentro de una organización, y tienen características y prioridades de seguridad distintas.
 
