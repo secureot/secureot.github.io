@@ -38,3 +38,6 @@ collapsibleMenu = true
   [markup.tableOfContents]
     startLevel = 1
     endLevel = 1
+
+[[params.themeVariant]]
+    identifier = 'relearn-dark'
