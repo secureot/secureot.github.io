@@ -49,3 +49,43 @@ La **ciberseguridad en tecnologías de operación** se refiere a las prácticas,
 - **Control de Acceso:** Limitar el acceso a los sistemas críticos mediante autenticación fuerte y políticas de acceso.
 - **Capacitación y Concientización:** Formar a los empleados sobre las mejores prácticas de ciberseguridad para prevenir ataques.
 
+#### Adopción de medidas de Ciberseguridad en OT
+
+A continuación podemos ver un cuadro muy resumido sobre puntos a considerar para implementar un programa de ciberseguridad en nuestro ambiente OT
+
+##### Descripción del Diagrama
+
+1. **Identificación de Necesidades**: Determinar qué áreas requieren protección.
+2. **Evaluación de Riesgos**: Analizar los riesgos asociados con la infraestructura existente.
+3. **Definición de Requerimientos**: Establecer qué funcionalidades deben tener las soluciones.
+4. **Investigación de Soluciones**: Buscar soluciones que se alineen con los requerimientos.
+5. **Evaluación de Proveedores**: Comparar diferentes proveedores de soluciones.
+6. **Pruebas de Soluciones**: Realizar pruebas de las soluciones elegidas.
+7. **Selección de Solución**: Elegir la mejor solución según las pruebas y evaluaciones.
+8. **Adquisición de la Solución**: Completar la compra de la solución seleccionada.
+9. **Implementación**: Integrar la solución en el entorno de trabajo.
+10. **Ajuste y Configuración**: Configurar la solución para que cumpla con las necesidades específicas.
+11. **Capacitación del Personal**: Entrenar al personal sobre el uso de la nueva solución.
+12. **Monitoreo y Mantenimiento**: Supervisar el funcionamiento y realizar mantenimientos regulares.
+13. **Evaluación de Cumplimiento**: Verificar que la solución cumple con la norma 62443.
+14. **Ajustes para Cumplir con la Norma 62443**: Realizar modificaciones según sea necesario para cumplir con la norma.
+
+{{< mermaid >}}
+graph TD;
+    A[Identificación de Necesidades] --> B[Evaluación de Riesgos]
+    B --> C[Definición de Requerimientos]
+    C --> D[Investigación de Soluciones]
+    D --> E[Evaluación de Proveedores]
+    E --> F[Pruebas de Soluciones]
+    F --> G[Selección de Solución]
+    G --> H[Adquisición de la Solución]
+    H --> I[Implementación]
+    I --> J[Ajuste y Configuración]
+    J --> K[Capacitación del Personal]
+    K --> L[Monitoreo y Mantenimiento]
+    L --> M[Evaluación de Cumplimiento]
+    M --> N[Ajustes para Cumplir con la Norma 62443]
+
+    classDef proceso fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,B,C,D,E,F,G,H,I,J,K,L,M,N proceso;
+{{< /mermaid >}}
