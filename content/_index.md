@@ -1,9 +1,9 @@
 +++
-author = "SecureOT Ekoparty ICS Village"
+author = "SecureOT Village"
 title = "SecureOT"
 +++
 
-# Secure OT Village Ekoparty
+# Secure OT Village
 
 El village **Secure OT**, está pensado para ser un espacio colaborativo en el cual aprender en comunidad sobre ciberseguridad industrial y sus prácticas, tecnologías y procesos.
 
