@@ -81,50 +81,47 @@ A continuación podemos ver un cuadro muy resumido sobre puntos a considerar par
 
 
 {{< mermaid >}}
-graph TD;
-    subgraph Fase 1: Identificación
-        A[Identificación de Necesidades]
-        B[Evaluación de Riesgos]
-    end
+graph LR
+  subgraph Fase_1_Identificación
+    A1(Identificación de Necesidades)
+    A2(Evaluación de Riesgos)
+  end
 
-    subgraph Fase 2: Definición de Requerimientos
-        C[Definición de Requerimientos]
-        D[Investigación de Soluciones]
-    end
+  subgraph Fase_2_Defa_Requerimientos
+    B1(Definición de Requerimientos)
+    B2(Investigación de Soluciones)
+  end
 
-    subgraph Fase 3: Selección de Proveedores
-        E[Evaluación de Proveedores]
-        F[Pruebas de Soluciones]
-        G[Selección de Solución]
-    end
+  subgraph Fase_3_Selección_Proveedores
+    C1(Evaluación de Proveedores)
+    C2(Pruebas de Soluciones)
+    C3(Selección de Solución)
+  end
 
-    subgraph Fase 4: Implementación
-        H[Adquisición de la Solución]
-        I[Implementación]
-        J[Ajuste y Configuración]
-    end
+  subgraph Fase_4_Implementación
+    D1(Adquisición de la Solución)
+    D2(Implementación)
+    D3(Ajuste y Configuración)
+  end
 
-    subgraph Fase 5: Capacitación y Mantenimiento
-        K[Capacitación del Personal]
-        L[Monitoreo y Mantenimiento]
-        M[Evaluación de Cumplimiento]
-        N[Ajustes para Cumplir con la Norma 62443]
-    end
+  subgraph Fase_5_Capacitación_Mantenimiento
+    E1(Capacitación del Personal)
+    E2(Monitoreo y Mantenimiento)
+    E3(Evaluación de Cumplimiento)
+    E4(Ajustes para Cumplir con la Norma 62443)
+  end
 
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    H --> I
-    I --> J
-    J --> K
-    K --> L
-    L --> M
-    M --> N
-
-    classDef fase fill: #0B6EB1,stroke:#333,stroke-width:2px;
-    class A,B,C,D,E,F,G,H,I,J,K,L,M,N fase;
+  A1 --> A2
+  A2 --> B1
+  B1 --> B2
+  B2 --> C1
+  C1 --> C2
+  C2 --> C3
+  C3 --> D1
+  D1 --> D2
+  D2 --> D3
+  D3 --> E1
+  E1 --> E2
+  E2 --> E3
+  E3 --> E4
 {{< /mermaid >}}
