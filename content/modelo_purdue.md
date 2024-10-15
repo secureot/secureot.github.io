@@ -11,11 +11,11 @@ El modelo está organizado en cinco niveles jerárquicos, cada uno con funciones
 
 | **Nivel** | **Descripción**                                                                                                                                                            | **Ejemplos de Tecnologías**                           |
 |-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
-| **Nivel 0** | **Proceso**: Involucra los dispositivos de campo que interactúan directamente con el entorno.                                                                           | Sensores, Actuadores, Controladores de Movimiento     |
-| **Nivel 1** | **Control**: Se encarga del control y la automatización mediante dispositivos que ejecutan instrucciones.                                                                  | PLCs (Controladores Lógicos Programables), DCS        |
-| **Nivel 2** | **Supervisión**: Proporciona interfaces de usuario y monitoreo del proceso en tiempo real.                                                                                | HMI (Interfaz Hombre-Máquina), SCADA                  |
-| **Nivel 3** | **Operaciones del Sitio**: Se centra en la gestión de la producción y el almacenamiento de datos para el análisis y la optimización.                                     | Sistemas de Gestión de Producción, Historian de Datos |
-| **Nivel 4** | **Gestión Empresarial**: Se ocupa de la integración de los sistemas de gestión empresarial con las operaciones industriales.                                                | ERP (Planificación de Recursos Empresariales), CRM     |
+| **0** | **Proceso**: Involucra los dispositivos de campo que interactúan directamente con el entorno.                                                                           | Sensores, Actuadores, Controladores de Movimiento     |
+| **1** | **Control**: Se encarga del control y la automatización mediante dispositivos que ejecutan instrucciones.                                                                  | PLCs (Controladores Lógicos Programables), DCS        |
+| **2** | **Supervisión**: Proporciona interfaces de usuario y monitoreo del proceso en tiempo real.                                                                                | HMI (Interfaz Hombre-Máquina), SCADA                  |
+| **3** | **Operaciones del Sitio**: Se centra en la gestión de la producción y el almacenamiento de datos para el análisis y la optimización.                                     | Sistemas de Gestión de Producción, Historian de Datos |
+| **4** | **Gestión Empresarial**: Se ocupa de la integración de los sistemas de gestión empresarial con las operaciones industriales.                                                | ERP (Planificación de Recursos Empresariales), CRM     |
 
 ## Propósitos y Beneficios del Modelo Purdue
 
