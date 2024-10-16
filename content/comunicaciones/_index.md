@@ -58,17 +58,16 @@ Existen numerosos estándares y protocolos diseñados para facilitar la comunica
 5. **CAN Bus**: Utilizado principalmente en la automoción y en sistemas embebidos para la comunicación entre microcontroladores.
 6. **OPC UA**: Un estándar de interoperabilidad que facilita la comunicación entre diferentes sistemas industriales y plataformas de software.
 
-+------------------------------+------------------------------+------------------------------+
 | Fieldbus Protocols            | Ethernet-Based Protocols      | Serial/Ethernet Protocols     |
-+------------------------------+------------------------------+------------------------------+
+|-------------------------------|-------------------------------|-------------------------------|
 | PROFIBUS                      | PROFINET                      | Modbus RTU/ASCII              |
-| Foundation Fieldbus           | EtherNet/IP                   | Modbus TCP/IP                 |
+| Foundation Fieldbus            | EtherNet/IP                   | Modbus TCP/IP                 |
 | DeviceNet                     | EtherCAT                      | RS-485 (Serial)               |
 | CANopen                       | Powerlink                     | RS-232 (Serial)               |
-| AS-Interface                  | SERCOS III                    | DNP3                         |
+| AS-Interface                  | SERCOS III                    | DNP3                          |
 | Interbus                      | Modbus TCP/IP                 | IEC 60870-5-104               |
 | ControlNet                    | CC-Link IE                    |                               |
-+------------------------------+------------------------------+------------------------------+
+
 
 * **Fieldbus Protocols**: Protocolos de bus de campo tradicionales que permiten la comunicación entre sensores, actuadores y controladores.
 * **Ethernet-Based Protocols**: Protocolos que usan Ethernet para mejorar la velocidad y flexibilidad en las redes industriales.
