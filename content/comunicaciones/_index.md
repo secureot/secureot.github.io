@@ -69,6 +69,37 @@ Existen numerosos estándares y protocolos diseñados para facilitar la comunica
 | ControlNet                    | CC-Link IE                    |                               |
 
 
+{{< mermaid >}}
+graph TD
+    A[Industrial Communication Protocols] --> B[Fieldbus Protocols]
+    A --> C[Ethernet-Based Protocols]
+    A --> D[Serial/Ethernet Protocols]
+
+    B --> B1[PROFIBUS]
+    B --> B2[Foundation Fieldbus]
+    B --> B3[DeviceNet]
+    B --> B4[CANopen]
+    B --> B5[AS-Interface]
+    B --> B6[Interbus]
+    B --> B7[ControlNet]
+
+    C --> C1[PROFINET]
+    C --> C2[EtherNet/IP]
+    C --> C3[EtherCAT]
+    C --> C4[Powerlink]
+    C --> C5[SERCOS III]
+    C --> C6[Modbus TCP/IP]
+    C --> C7[CC-Link IE]
+
+    D --> D1[Modbus RTU/ASCII]
+    D --> D2[Modbus TCP/IP]
+    D --> D3[RS-485 (Serial)]
+    D --> D4[RS-232 (Serial)]
+    D --> D5[DNP3]
+    D --> D6[IEC 60870-5-104]
+{{< /mermaid >}}
+
+
 * **Fieldbus Protocols**: Protocolos de bus de campo tradicionales que permiten la comunicación entre sensores, actuadores y controladores.
 * **Ethernet-Based Protocols**: Protocolos que usan Ethernet para mejorar la velocidad y flexibilidad en las redes industriales.
 * **Serial/Ethernet Protocols**: Protocolos que combinan tecnologías seriales clásicas con Ethernet para integración en redes modernas.
