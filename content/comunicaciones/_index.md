@@ -93,8 +93,8 @@ graph TD
 
     D --> D1[Modbus RTU/ASCII]
     D --> D2[Modbus TCP/IP]
-    D --> D3[RS-485 (Serial)]
-    D --> D4[RS-232 (Serial)]
+    D --> D3[RS-485 - Serial]
+    D --> D4[RS-232 - Serial]
     D --> D5[DNP3]
     D --> D6[IEC 60870-5-104]
 {{< /mermaid >}}
