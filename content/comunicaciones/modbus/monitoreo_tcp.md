@@ -1,11 +1,9 @@
 +++
 title = "Monitoreo modbus sobre TCP"
-tags: ["Modbus", "Wireshark", "Industrial", "OT", "Ciberseguridad"]
+tags = ["Modbus", "Wireshark", "Industrial", "OT", "Ciberseguridad"]
 +++
 
 En esta guía te compartimos algunos **tips clave para analizar tráfico Modbus TCP** utilizando **Wireshark**, útil para diagnosticar problemas de comunicación o entender cómo funcionan los protocolos industriales.
-
----
 
 ## **1. Filtrar Tráfico Modbus TCP**
 
