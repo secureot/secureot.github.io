@@ -230,6 +230,7 @@ Este glosario contiene una colección de términos clave relacionados con las re
 ---
 
 ### N
+* [NAT (Traducción de Direcciones de Red)](/glosario/NAT)
 * [NB-IoT (Internet de las Cosas de Banda Estrecha)](/glosario/NB-IoT)
 * [ND (Descubrimiento de Vecinos)](/glosario/ND)
 * [NFC (Comunicación de Campo Cercano)](/glosario/Near-Field-Communication)
@@ -415,4 +416,5 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [Zigbee](/glosario/Zigbee)
 * [Zonificación](/glosario/Zonificacion)
 * [Z-Wave](/glosario/Z-Wave)
+
 
