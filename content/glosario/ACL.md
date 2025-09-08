@@ -16,3 +16,12 @@ graph TD
     C -- Sí --> D[Permitir];
     C -- No --> E[Denegar];
     B -- No --> D;
+```
+
+El siguiente ejemplo muestra cómo configurar una ACL numerada para permitir el tráfico HTTP de la red 10.10.10.0/24 y denegar el resto.
+
+```
+Router(config)#access-list 101 permit tcp 10.10.10.0 0.0.0.255 any eq 80
+Router(config)#access-list 101 deny ip any any
+Router(config)#interface gigabitEthernet 0/1
+Router(config-if)#ip access-group 101 in
