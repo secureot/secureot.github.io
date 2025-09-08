@@ -71,26 +71,26 @@ graph TD
         A[Nube/Proveedor]
     end
 
-    subgraph Zona Empresarial (SL-1)
+    subgraph Zona Empresarial - SL-1
         B[Servidor de IT]
         C[Estación de trabajo]
     end
 
-    subgraph DMZ Industrial (IDMZ)
+    subgraph DMZ Industrial - IDMZ
         D{Firewall / Proxy};
     end
 
-    subgraph Zona de Supervisión (SL-2)
+    subgraph Zona de Supervisión - SL-2
         E[Servidor SCADA]
         F[HMI de Operador]
     end
 
-    subgraph Zona de Control de Procesos (SL-3)
+    subgraph Zona de Control de Procesos - SL-3
         G[PLC Principal]
         H[PLC de Reserva]
     end
 
-    subgraph Zona de Seguridad (SL-4)
+    subgraph Zona de Seguridad SL-4
         I[Sistema de Seguridad]
     end
 
