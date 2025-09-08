@@ -11,9 +11,10 @@ weight: 1
 
 ```mermaid
 graph TD
-    A[PC1 (IP: 10.0.0.1)] --> B{¿Conoce MAC de 10.0.0.2?};
+    A[PC1 IP: 10.0.0.1] --> B{¿Conoce MAC de 10.0.0.2?};
     B -- No --> C[Envía Broadcast ARP];
-    C --> D[PC2 (IP: 10.0.0.2)];
+    C --> D[PC2 IP: 10.0.0.2];
     D -- Responde con su MAC --> C;
     C --> B;
     B -- Sí --> E[Envía Unicast];
+
