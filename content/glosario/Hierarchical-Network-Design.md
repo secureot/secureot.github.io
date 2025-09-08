@@ -9,6 +9,7 @@ weight: 1
 
 **Ejemplo de uso:** "El diseño jerárquico de una red de campus universitario divide la red en capas de acceso, distribución y núcleo, lo que simplifica la gestión y la resolución de problemas."
 
+```mermaid
 graph TD
     A[Capa de Acceso] -- Conecta a --> B[Capa de Distribución];
     B -- Conecta a --> C[Capa de Núcleo];
@@ -17,3 +18,4 @@ graph TD
     style B fill:#bfb,stroke:#333,stroke-width:2px
     style C fill:#fbb,stroke:#333,stroke-width:2px
     style D fill:#ddd,stroke:#333,stroke-width:2px
+
