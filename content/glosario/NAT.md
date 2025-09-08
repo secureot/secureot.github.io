@@ -16,3 +16,11 @@ Router(config)#interface gigabitEthernet 0/0
 Router(config-if)#ip nat inside
 Router(config-if)#interface gigabitEthernet 0/1
 Router(config-if)#ip nat outside
+```
+
+```mermaid
+graph LR
+    A[Red Interna<br/>192.168.1.0/24] --> B{Router<br/>con NAT};
+    B --Tráfico privado (192.168.1.x)--> C[Interfaz Inside<br/>GigabitEthernet 0/0];
+    C --Proceso de NAT--> D[Interfaz Outside<br/>GigabitEthernet 0/1];
+    D --Tráfico público--> E[Internet<br/>Red Pública];
