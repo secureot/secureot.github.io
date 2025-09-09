@@ -55,12 +55,11 @@ Este diagrama muestra cómo los paquetes de datos de control y de Ethernet está
 ```mermaid
 gantt
     title Ciclo de Comunicación PROFINET IRT
-    dateFormat  HH:mm:ss.SSS
-    axisFormat %L
+    axisFormat %Lms
     section Ciclo de Escaneo (por ejemplo, 1 ms)
-    Paquete IRT (Control)  :a1, 0s, 10ms
-    Paquete IRT (Control)  :a2, 10ms, 10ms
-    Paquete TCP/IP  :a3, 20ms, 10ms
+    Paquete IRT (Control)  :a1, 0, 10
+    Paquete IRT (Control)  :a2, 10, 10
+    Paquete TCP/IP  :a3, 20, 10
 ```
 
 ### **Dónde buscar más información**
@@ -76,5 +75,6 @@ Para profundizar en la tecnología PROFINET, puedes consultar las siguientes fue
 
 * **IEC (Comisión Electrotécnica Internacional)**: PROFINET se basa en los estándares de la IEC, como la serie IEC 61158. La documentación de la IEC garantiza su interoperabilidad con otras tecnologías de automatización y es una referencia clave para los ingenieros.
   *  `https://www.iec.ch/`
+
 
 
