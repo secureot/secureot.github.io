@@ -2,6 +2,14 @@
 title = "Fuentes interesantes"
 +++
 
+# Enlaces
+
+#### Simuladores
+
+- https://github.com/ivankafernandez/ElectroSim-Industrial
+- https://www.labshocksecurity.com/
+
+
 # Lista de Libros sobre Ciberseguridad Industrial
 
 1. **"Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers"** de Andy Greenberg  
