@@ -4,10 +4,26 @@ title = "Fuentes interesantes"
 
 # Enlaces
 
+#### Referentes
+
+- https://github.com/LiuYuancheng
+- https://github.com/utilsec/
+
 #### Simuladores
 
 - https://github.com/ivankafernandez/ElectroSim-Industrial
 - https://www.labshocksecurity.com/
+- https://github.com/Fortiphyd/GRFICSv2
+
+#### Herramientas
+
+- https://github.com/ITI/ICS-Security-Tools
+- https://github.com/automayt/ICS-pcap
+- https://github.com/hslatman/awesome-industrial-control-system-security
+- https://github.com/kh4sh3i/ICS-Pentesting-Tools
+- Honeypots
+ - https://github.com/mushorg/conpot
+ - https://github.com/telekom-security/tpotce
 
 
 # Lista de Libros sobre Ciberseguridad Industrial
