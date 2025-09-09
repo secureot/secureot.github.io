@@ -42,8 +42,8 @@ Este diagrama ilustra la estructura de un sistema PROFINET, mostrando el control
 
 ```mermaid
 graph TD
-    A[Controlador de E/S PROFINET] -->|Comunicación en tiempo real| B[Dispositivo de E/S (Sensor)];
-    A -->|Comunicación en tiempo real| C[Dispositivo de E/S (Actuador)];
+    A[Controlador de E/S PROFINET] -->|Comunicación en tiempo real| B[Dispositivo de E/S - Sensor];
+    A -->|Comunicación en tiempo real| C[Dispositivo de E/S - Actuador];
     A -- "Comunicación TCP/IP" --> D[HMI];
     A -- "Comunicación TCP/IP" --> E[Servidor];
 ```
@@ -76,4 +76,5 @@ Para profundizar en la tecnología PROFINET, puedes consultar las siguientes fue
 
 * **IEC (Comisión Electrotécnica Internacional)**: PROFINET se basa en los estándares de la IEC, como la serie IEC 61158. La documentación de la IEC garantiza su interoperabilidad con otras tecnologías de automatización y es una referencia clave para los ingenieros.
   *  `https://www.iec.ch/`
+
 
