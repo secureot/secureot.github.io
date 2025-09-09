@@ -34,7 +34,6 @@ El funcionamiento de un sistema SCADA se basa en un ciclo continuo de recopilaci
 
 ### **Diagrama de arquitectura SCADA**
 
-Aquí tienes un diagrama simple en formato Mermaid que ilustra la arquitectura de un sistema SCADA, mostrando la conexión entre sus diferentes componentes.
 
 ```mermaid
 graph TD
@@ -54,3 +53,4 @@ graph TD
         Servidor --> HMI(HMI del Operador);
         HMI --> Servidor;
     end
+
