@@ -5,7 +5,7 @@ title = "SecureOT Village"
 El village **Secure OT**, está pensado para ser un espacio colaborativo en el cual aprender en comunidad sobre ciberseguridad industrial y sus prácticas, tecnologías y procesos.
 
 ## ¿Qué son las Tecnologías de Operación?
-Las **tecnologías de operación (OT)** se refieren a los sistemas y dispositivos utilizados para monitorear y controlar procesos industriales, infraestructuras críticas y sistemas físicos. Esto incluye equipos como controladores lógicos programables (PLC), sistemas de control distribuido (DCS), interfaces hombre-máquina (HMI), y sistemas de supervisión y adquisición de datos (SCADA). Las tecnologías de operación son esenciales para el funcionamiento eficiente de sectores como la manufactura, la energía, el agua y el transporte.
+Las **tecnologías de operación (OT)** se refieren a los sistemas y dispositivos utilizados para monitorear y controlar procesos industriales, infraestructuras críticas y sistemas físicos. Esto incluye equipos como controladores lógicos programables ([PLC](/glosario/PLC)), sistemas de control distribuido ([DCS](/glosario/DCS)), interfaces hombre-máquina ([HMI](/glosario/HMI)), y sistemas de supervisión y adquisición de datos ([SCADA](/glosario/SCADA)). Las tecnologías de operación son esenciales para el funcionamiento eficiente de sectores como la manufactura, la energía, el agua y el transporte.
 
 ## Conceptos Relacionados
 
@@ -13,7 +13,7 @@ Las **tecnologías de operación (OT)** se refieren a los sistemas y dispositivo
 - Los **sistemas de control industrial (ICS)** son un término amplio que abarca todas las tecnologías utilizadas para controlar procesos industriales. Esto incluye tecnologías OT como PLC, DCS y SCADA, que trabajan en conjunto para gestionar y automatizar operaciones.
 
 ### Infraestructura de Automatización Industrial (IACS)
-- La **infraestructura de automatización industrial (IACS)** es un término que engloba tanto las tecnologías de control (ICS) como los sistemas de TI relacionados. IACS incluye todos los componentes, desde dispositivos de campo hasta sistemas de control y redes, que permiten la automatización y el control de procesos industriales.
+- La **infraestructura de automatización industrial ([IACS](/glosario/IACS))** es un término que engloba tanto las tecnologías de control (ICS) como los sistemas de TI relacionados. IACS incluye todos los componentes, desde dispositivos de campo hasta sistemas de control y redes, que permiten la automatización y el control de procesos industriales.
 
 ### Infraestructuras Críticas
 Las **[infraestructuras críticas]({{< ref "/infraestructuras_criticas" >}})** son aquellos sistemas y activos que son esenciales para el funcionamiento de la sociedad y la economía. Esto incluye sectores como la energía, el agua, la salud, el transporte y las telecomunicaciones. La seguridad y la resiliencia de estas infraestructuras son vitales, ya que cualquier interrupción en su funcionamiento puede tener consecuencias graves, desde la pérdida de vidas hasta el colapso de servicios esenciales. Con el aumento de la interconexión y la dependencia de tecnologías digitales, la protección de estas infraestructuras frente a amenazas cibernéticas se ha vuelto primordial. La ciberseguridad en infraestructuras críticas busca prevenir, detectar y responder a ataques que puedan comprometer la seguridad y la disponibilidad de estos sistemas, asegurando así la continuidad operativa y la confianza pública.
