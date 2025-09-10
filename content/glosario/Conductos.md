@@ -1,5 +1,5 @@
 ---
-title: "Conductor"
+title: "Conductos"
 date: 2023-10-26
 draft: false
 weight: 1
@@ -40,18 +40,18 @@ Este diagrama ilustra cómo un conducto conecta de forma segura dos zonas con di
 
 ```mermaid
 graph TD
-    subgraph Zona de Supervisión (SL-2)
+    subgraph Zona de Supervisión - SL-2
         SCADA[Servidor SCADA];
         HMI[HMI de Operador];
     end
 
-    subgraph Zona de Control (SL-3)
-        PLC[Controlador Lógico Programable (PLC)];
+    subgraph Zona de Control - SL-3
+        PLC[Controlador Lógico Programable - PLC];
         Sensores[Sensores/Actuadores];
     end
 
-    SCADA -- "Conducto (SL-3)" --> PLC;
-    HMI -- "Conducto (SL-3)" --> Sensores;
+    SCADA -- "Conducto - SL-3" --> PLC;
+    HMI -- "Conducto - SL-3" --> Sensores;
 ```
 
 
