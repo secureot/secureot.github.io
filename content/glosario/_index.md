@@ -372,7 +372,6 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [Unicast](/glosario/Unicast)
 * [Redes Inalámbricas Unificadas](/glosario/Unified-Wireless-Networking)
 * [URI (Identificador Uniforme de Recursos)](/glosario/URI)
-* https://www.ionos.com/es-us/digitalguide/servidores/know-how/url-que-es-el-uniform-resource-locator/(/glosario/URL)
 * [URN (Nombre Uniforme de Recursos)](/glosario/URN)
 * [USB (Bus Serie Universal)](/glosario/USB)
 * [UDP (Protocolo de Datagramas de Usuario)](/glosario/UDP)
@@ -431,4 +430,5 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * **Unión Internacional de Telecomunicaciones. (2005).** Cumbre Mundial sobre la Sociedad de la Información: Documentos Finales.
 * **Cursos de Ciberseguridad de Cisco Netacad**
 * **Resolución 1523/2019** `https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1523-2019-328599/texto`
+
 
