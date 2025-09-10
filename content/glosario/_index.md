@@ -333,6 +333,7 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [SMV (Valores Medidos Muestreados)](/glosario/SMV)
 * [SNAP (Protocolo de Acceso a Subred)](/glosario/SNAP)
 * [SNMP (Protocolo Simple de Gestión de Red)](/glosario/SNMP)
+* [Sniffer](/glosario/sniffer)
 * [SOHO (Oficina Pequeña/Oficina en Casa)](/glosario/SOHO)
 * [Socket](/glosario/Socket)
 * [SPAN (Analizador de Puerto Conmutado)](/glosario/SPAN)
@@ -430,5 +431,6 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * **Unión Internacional de Telecomunicaciones. (2005).** Cumbre Mundial sobre la Sociedad de la Información: Documentos Finales.
 * **Cursos de Ciberseguridad de Cisco Netacad**
 * **Resolución 1523/2019** `https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1523-2019-328599/texto`
+
 
 
