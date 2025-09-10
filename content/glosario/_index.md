@@ -54,7 +54,7 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [Computación en la Nube (Cloud Computing)](/glosario/Cloud-Computing)
 * [COAP (Protocolo de Aplicación Restringida)](/glosario/CoAP)
 * [CoS (Clase de Servicio)](/glosario/CoS)
-* [Conductos](/glosario/Conductor)
+* [Conductos](/glosario/Conductos)
 * [Convergencia (TI-TO)](/glosario/Convergencia)
 * [Switch de Núcleo (Core Switch)](/glosario/Core-Switch)
 * [Sistemas Ciber-Físicos (CPS - Cyber-Physical Systems)](/glosario/CPS)
@@ -416,5 +416,6 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [Zigbee](/glosario/Zigbee)
 * [Zonificación](/glosario/Zonificacion)
 * [Z-Wave](/glosario/Z-Wave)
+
 
 
