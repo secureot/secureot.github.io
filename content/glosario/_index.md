@@ -417,5 +417,16 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [Zonificación](/glosario/Zonificacion)
 * [Z-Wave](/glosario/Z-Wave)
 
+ 
+## **Referencias**
 
-
+* **CCN, C. C. (Agosto de 2015).** Guía de Seguridad (CCN-STIC-401) - Glosario y Abreviaturas. Recuperado de `https://www.ccn-cert.cni.es/pdf/guias/glosario-de-terminos/22-401-descargar-glosario/file.html`
+* **Gartner. (2019).** Recuperado de `https://www.gartner.com/it-glossary/`
+* **INCIBE, I. N. (s.f.).** Glosario de términos de ciberseguridad: una guía de aproximación para el empresario. Recuperado de `https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_metad.pdf`
+* **Ley 25.506.**
+* **NICCS, N. I. (2018).** NICCS Glossary. Recuperado de `https://niccs.us-cert.gov/about-niccs/glossary`
+* **Rinaldi, S. M., Peerenboom, J. P., & Kelly, T. K. (December de 2001).** IEEE Control System Magazine. Identifying, Understandind and Analyzing Critical Infrastructure Interdependencies.
+* **Sistemas. (2019).** Recuperado de `https://sistemas.com/base-de-datos.php`
+* **Techopedia. (2019).** Recuperado de `https://www.techopedia.com/dictionary`
+* **Unión Internacional de Telecomunicaciones. (2005).** Cumbre Mundial sobre la Sociedad de la Información: Documentos Finales.
+* **Cursos de Ciberseguridad de Cisco Netacad**
