@@ -54,3 +54,34 @@ graph TD
     D(Paquete 3: IP a PC3) --> B;
     B -- modo promiscuo --> F(Captura todo el tráfico);
     B -- modo normal --> E(Captura solo el tráfico a PC1);
+```
+
+### **Libpcap y un ejemplo de Sniffer**
+
+**Libpcap** es una librería de bajo nivel, no un programa de usuario final, que proporciona una interfaz para capturar paquetes de red directamente desde una tarjeta de red (NIC). Es la base sobre la que se construyen herramientas populares como Wireshark y tcpdump. Permite a los programadores capturar y filtrar el tráfico de la red, lo que la hace fundamental para el desarrollo de herramientas de monitoreo y análisis de red.
+
+---
+
+#### **Diagrama de funcionamiento de un sniffer basado en Libpcap**
+
+Este diagrama ilustra el rol de `libpcap` como intermediario entre la placa de red y una aplicación de análisis.
+
+```mermaid
+graph TD
+    A[Tráfico de Red] --> B(Tarjeta de Red<br/>(NIC));
+    B --> C(Libpcap<br/>(Librería de captura));
+    C --> D[Aplicación de Sniffer<br/>(Ej: tcpdump, Wireshark)];
+    D --> E[Análisis y Visualización];
+```
+
+##### **Lenguajes con soporte para libpcap**
+
+`Libpcap` es una biblioteca de bajo nivel escrita en C, por lo que su soporte se extiende a otros lenguajes a través de "bindings" o "wrappers" que traducen la API de C a la sintaxis del lenguaje correspondiente. Así que si conoces alguno de los siguientes lenguajes de la lista, puedes jugar fácilmente con `Libpcap`.
+
+* **C / C++**: Tienen soporte nativo, ya que `libpcap` es una biblioteca de C.
+* **Python**: Se utiliza con librerías como `pypcap` o `scapy`.
+* **Go**: El paquete `gopacket` es una opción popular.
+* **Rust**: Cuenta con el crate `pcap`, que proporciona una interfaz segura.
+* **Java**: Se puede usar con librerías como `Jpcap` y `Pcap4j`.
+* **Node.js**: A través de módulos como `node-pcap`.
+* **Perl**: Con módulos como `Net::Pcap`.
