@@ -68,9 +68,9 @@ Este diagrama ilustra el rol de `libpcap` como intermediario entre la placa de r
 
 ```mermaid
 graph TD
-    A[Tráfico de Red] --> B(Tarjeta de Red<br/>(NIC));
-    B --> C(Libpcap<br/>(Librería de captura));
-    C --> D[Aplicación de Sniffer<br/>(Ej: tcpdump, Wireshark)];
+    A[Tráfico de Red] --> B(Tarjeta de Red<br/>NIC);
+    B --> C(Libpcap<br/>Librería de captura);
+    C --> D[Aplicación de Sniffer<br/>Ej: tcpdump, Wireshark];
     D --> E[Análisis y Visualización];
 ```
 
