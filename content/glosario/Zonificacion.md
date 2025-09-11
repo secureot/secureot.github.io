@@ -1,5 +1,5 @@
 ---
-title: "Zonas y Conductos en Ciberseguridad Industrial"
+title: "Zonas y Conductos"
 date: 2023-10-26
 draft: false
 weight: 1
@@ -114,3 +114,4 @@ graph TD
     style G fill:#ffcccc,stroke:#333,stroke-width:2px;
     style H fill:#ffcccc,stroke:#333,stroke-width:2px;
     style I fill:#ccffcc,stroke:#333,stroke-width:2px;
+
