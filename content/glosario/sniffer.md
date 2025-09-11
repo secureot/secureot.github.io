@@ -81,7 +81,7 @@ graph TD
 * **C / C++**: Tienen soporte nativo, ya que `libpcap` es una biblioteca de C.
 * **Python**: Se utiliza con librerías como `pypcap` o `scapy`.
 * **Go**: El paquete `gopacket` es una opción popular.
-* **Rust**: Cuenta con el crate `pcap`, que proporciona una interfaz segura.
+* **Rust**: Cuenta con el paquete `pcap`, que proporciona una interfaz segura.
 * **Java**: Se puede usar con librerías como `Jpcap` y `Pcap4j`.
 * **Node.js**: A través de módulos como `node-pcap`.
 * **Perl**: Con módulos como `Net::Pcap`.
