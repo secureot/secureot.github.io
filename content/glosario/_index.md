@@ -26,6 +26,7 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * [AR/VR (Realidad Aumentada/Realidad Virtual)](/glosario/AR-VR)
 * [ARP (Protocolo de Resolución de Direcciones)](/glosario/ARP)
 * [Endurecimiento de Activos (Asset Hardening)](/glosario/Asset-Hardening)
+* [Auditoría de Tecnología Operativa (OT)](/glosario/AuditoriaOT)
 
 ---
 
@@ -431,6 +432,7 @@ Este glosario contiene una colección de términos clave relacionados con las re
 * **Unión Internacional de Telecomunicaciones. (2005).** Cumbre Mundial sobre la Sociedad de la Información: Documentos Finales.
 * **Cursos de Ciberseguridad de Cisco Netacad**
 * **Resolución 1523/2019** `https://www.argentina.gob.ar/normativa/nacional/resoluci%C3%B3n-1523-2019-328599/texto`
+
 
 
 
