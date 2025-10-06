@@ -78,3 +78,34 @@ A continuación podemos ver un cuadro muy resumido sobre puntos a considerar par
   - *Monitoreo y Mantenimiento*: Supervisa y mantiene.
   - *Evaluación de Cumplimiento*: Verifica el cumplimiento.
   - *Ajustes para Cumplir con la Norma 62443*: Realiza modificaciones necesarias.
+
+## Lecciones y Casos Reales en Ciberseguridad Industrial
+
+La evolución de la ciberseguridad industrial puede entenderse observando tanto los marcos normativos como los incidentes reales que marcaron un antes y un después en el sector. Los estándares de la familia **ISA/IEC 62443** establecen las mejores prácticas para proteger los sistemas de automatización industrial (IACS) mediante un enfoque sistemático basado en riesgos, zonas y conduits, y niveles de seguridad (SL).
+
+### Marco Normativo y Buenas Prácticas
+El estándar **IEC 62443-3-2** define los pasos fundamentales para transformar una evaluación de riesgos en controles implementables:  
+1. Realizar la evaluación de riesgos (RA).  
+2. Definir zonas y conduits de comunicación.  
+3. Establecer los Niveles de Seguridad Objetivo (SL-T).  
+4. Seleccionar y documentar los Requisitos de Seguridad (SRs).  
+
+Este enfoque promueve la creación de **arquitecturas seguras** que segmentan las redes, reducen la exposición a amenazas y permiten aplicar controles diferenciados según el riesgo de cada zona.  
+
+### Incidentes Relevantes y Lecciones Aprendidas
+A lo largo de la última década, distintos incidentes demostraron la vulnerabilidad de los entornos industriales:
+
+- **TriSIS (2017)**: atacó un sistema instrumentado de seguridad (SIS) en una planta petroquímica. Fue considerado un “close call”, ya que comprometió funciones diseñadas para proteger vidas humanas y evitar explosiones.  
+- **Frosty Goop (2021)**: malware que desactivó el sistema de calefacción de 600 edificios en **Ucrania**, afectando directamente a la población civil.  
+- **Stuxnet (2010)**: el primer ataque conocido que alteró procesos físicos en centrifugadoras industriales, demostrando la capacidad del malware para causar daños en el mundo real.  
+
+Estos casos reflejan que la convergencia entre TI y OT amplía la superficie de ataque, haciendo imprescindible aplicar medidas de defensa en profundidad y marcos como ISA/IEC 62443 o NIST SP 800-82.
+
+### Sectores Más Afectados
+Actualmente, **la manufactura** es el sector con mayor número de incidentes OT reportados, seguida por energía y transporte. La creciente digitalización industrial, sumada a la dependencia de cadenas de suministro complejas, amplía el riesgo de exposición.
+
+### Principales Vectores de Ataque
+El vector más común de ingreso a una red OT sigue siendo **la red IT corporativa**, debido a la falta de segmentación adecuada o configuraciones erróneas. Otros vectores frecuentes incluyen:
+- Dispositivos USB sin control.  
+- Equipos de contratistas conectados directamente a la red OT.  
+- Vulnerabilidades no corregidas en software y firmware industriales. 
