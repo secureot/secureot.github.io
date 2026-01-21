@@ -15,3 +15,53 @@ weight: 1
 * **Servidores de Acceso Remoto:** Estos servidores gestionan el acceso remoto seguro a la red OT para fines de mantenimiento y resolución de problemas. Suelen utilizar VPN (Redes Privadas Virtuales) u otros métodos seguros para garantizar que solo el personal autorizado pueda acceder a los sistemas críticos.
 * **Servidores de Aplicaciones:** Alojan aplicaciones que necesitan ser accedidas tanto por la red empresarial como por la red OT. Esto puede incluir sistemas de ejecución de manufactura (**MES**), sistemas de planificación de recursos empresariales (**ERP**) y otras aplicaciones críticas.
 * **Servidores de Bases de Datos:** Los servidores de bases de datos en la DMZ almacenan datos que deben compartirse entre la red empresarial y las redes OT. Garantizan que se pueda acceder a la información de forma segura sin exponer la red interna de OT.
+
+### Segmentación (Modelo Purdue)
+
+La **IDMZ** actúa como el Nivel 3.5 del Modelo Purdue, sirviendo como una barrera crítica de inspección entre la red de TI (Niveles 4 y 5) y la red de TO (Niveles 0-3). Según **IEC 62443**, esta segmentación define un conducto seguro que protege las "zonas" de control.
+
+* **Punto de Inspección:** Ningún tráfico debe fluir directamente de la Red Corporativa a la Red de Control; todo debe terminar y reanudarse en la IDMZ.
+* **Conformidad NIST 800-82:** Se recomienda el uso de firewalls duales (como se muestra en el diagrama) para evitar un único punto de falla en la seguridad.
+
+```mermaid
+graph TD
+    subgraph Enterprise_Network_Level_4_5 [Nivel 4 y 5: Red Empresarial]
+        ERP[ERP/IT Systems]
+        Internet((Internet))
+    end
+
+    subgraph IDMZ_Level_3_5 [Nivel 3.5: DMZ Industrial]
+        direction TB
+        FW1[Firewall Corporativo]
+        Proxy[Proxy Servers]
+        Hist[Data Historians]
+        Remote[Remote Access Server]
+        FW1 --> Proxy
+        FW1 --> Hist
+        FW1 --> Remote
+    end
+
+    subgraph Operations_Network_Level_3 [Nivel 3: Control de Operaciones]
+        FW2[Firewall Industrial]
+        HMI[HMIs / SCADA]
+        Eng[Engineering Workstations]
+    end
+
+    subgraph Control_Zone_Level_2_0 [Nivel 0 - 2: Zona de Control y Proceso]
+        PLC[PLCs / RTUs]
+        Sensors[Sensores y Actuadores]
+    end
+
+    %% Conexiones
+    ERP <--> FW1
+    Remote <--> FW2
+    Hist <--> FW2
+    FW2 <--> HMI
+    HMI <--> PLC
+    PLC <--> Sensors
+
+    %% Estilos
+    style IDMZ_Level_3_5 fill:#f9f,stroke:#333,stroke-width:2px
+    style FW1 fill:#ff9999
+    style FW2 fill:#ff9999
+```
